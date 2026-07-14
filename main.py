@@ -37,18 +37,18 @@ def main():
     
     print("\n--- Pruebas de las funciones ---")
     print("\n--- Prueba SUMA ---")
-    print(f"Suma de {lista_pruebas}: {addmultiplenumbers(lista_pruebas)}")  # Esperado: 9
+    print(f"Suma de {lista_pruebas}: {addmultiplenumbers(lista_pruebas)}") 
     
     print("\n--- Prueba MULTIPLICACIÓN ---")
-    print(f"Multiplicación de {lista_pruebas}: {multiplymultiplenumbers(lista_pruebas)}")  # Esperado: 24
+    print(f"Multiplicación de {lista_pruebas}: {multiplymultiplenumbers(lista_pruebas)}") 
     
     print("\n--- Prueba NÚMERO ENTERO ---")
-    print(f"¿Es 4 un número entero? {isitaninteger(4)}")  # Esperado: True
-    print(f"¿Es 4.5 un número entero? {isitaninteger(4.5)}")  # Esperado: False
+    print(f"¿Es 4 un número entero? {isitaninteger(4)}") 
+    print(f"¿Es 4.5 un número entero? {isitaninteger(4.5)}") 
     
     print("\n--- Prueba NÚMERO PAR ---")
-    print(f"¿Es 4 un número par? {isiteven(4)}")  # Esperado: True
-    print(f"¿Es 5 un número par? {isiteven(5)}")  # Esperado: False
+    print(f"¿Es 4 un número par? {isiteven(4)}") 
+    print(f"¿Es 5 un número par? {isiteven(5)}")  
     
 
 
